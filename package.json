@@ -4,11 +4,18 @@
   "description": "a clone of trello",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Palermo Deschamps",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^1.13.1"
+    "css-loader": "^0.23.1",
+    "npm-install-webpack-plugin": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.13.0"
   }
 }

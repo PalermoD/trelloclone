@@ -1,3 +1,6 @@
 import React from 'react';
 
-export default () => <div>Learn React</div>;
+export default () => 
+  <div>
+       <h1>Hello You awesome world!</h1>
+  </div>;
